@@ -1,91 +1,129 @@
-*{
-   margin: 0; 
-   padding: 0;
-}
-/* body{
-    background: url(./netf.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-}
-Thecaykoyski, [27/09/2023 19:27]
 
-
-Thecaykoyski, [27/09/2023 19:28]
 * {
-  padding: 0;
-  margin: 0;
-} */
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
 body {
-  background: url(./netf.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-  color: #fff;
-  font-family: sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	background: url(./netf.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	color: #fff;
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 span {
-  color: red;
-  font-family: sans-serif;
+	color: red;
+	font-family:  sans-serif;
 }
 
+#title {
+	/* border: 2px solid white; */
+	margin: 10px;
+}
 #description {
-  font-weight: bold;
+	/* border: 2px solid salmon; */
+	font-weight: 400;
+	margin: 10px;
+	font-family: 'Times New Roman', Times, serif;
+
 }
 
 .container {
-  border: 2px solid blue;
-  background-color: #00000057;
-  width: 94%;
-  height: 96vh;
-  margin-top: 1%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+	/* border: 2px solid blue; */
+	background-color: #00000057;
+	width: 94%;
+	height: 96vh;
+	margin-top: 1%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
 
 #survey-form {
-  background-color: rgba(0, 0, 0, 0.718);
-  display: flex;
-  flex-direction: column;
-  /* text-align: start; */
+	background-color: rgba(0, 0, 0, 0.718);
+	/* border: 2px solid yellow; */
+	width: 24%;
+	height: 100%;
+	margin: auto;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	/* text-align: start; */
 }
 
 .box {
-  display: flex;
-  flex-direction: column;
-  width: 86%;
-  margin: auto;
-  border: 2px solid red;
+	display: flex;
+	flex-direction: column;
+	width: 86%;
+	margin: auto;
+	/* border: 2px solid red; */
 }
 
 label {
-  border: 2px solid green;
-  text-align: left;
-  margin: 10px 0;
-  margin-bottom: 0;
+	/* border: 2px solid green; */
+	text-align: left;
+	margin: 10px 0;
+	/* margin-bottom: 0; */
 }
 
+
 .check {
-  display: inline-block;
-  text-align: left;
+	/* border: 2px solid blue; */
+	margin-top: 15px;
+	
+	text-align: left;
+
 }
 
 #checkbox {
-  margin-top: 0;
+	margin-top: 0;
 }
 
 .radios {
-  display: inline-block;
-  text-align: left;
+	display: inline-block;
+	text-align: left;
+	margin-top: 15px;
+}
+
+input {
+	padding: 10px;
+}
+
+select {
+	width: 95%;
+	padding: 5px;
+
+}
+
+textarea {
+	padding: 10px;
+	width: 85%;
+	resize: none;
+}
+
+
+
+ #submit {
+	background-color: red;
+	color: white;
+	margin: 16px;
+	padding: 15px 46px;
+	border-radius: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+}
+
+#submit:hover {
+	background-color: rgb(190, 39, 39);
+	cursor: pointer;
 }
